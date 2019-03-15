@@ -2,24 +2,20 @@
 layout: default
 ---
 
+{% include page-hero.html %}
 
-<section>
-    <div class="section-title">
-        <h2><span>{{ page.title }}</span></h2>
-    </div>
-    
-    <div class="article-post">
-    {{content}}
-    </div>
-    
-    {% if page.comments == true %}
-    
-    <div id="comments" class="row mb-5">
-        <div class="col-md-8">              
-            {% include disqus.html %}                
+<div class='o-wrapper'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--center o-grid__col--3-4-m o-grid__col--2-3-l'>
+      <article class='c-post page'>
+
+        <div class='c-content'>
+          {{ content }}
         </div>
+
+      </article>
     </div>
-    
-    {% endif %}
-    
-</section>
+  </div>
+
+</div>
