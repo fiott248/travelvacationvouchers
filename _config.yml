@@ -19,7 +19,7 @@ defaults:
 theme_version: 1.0.4
 logo: 
 description: Thoughts, Stories and Ideas
-baseurl: ''
+baseurl: 
 url: https://nubia-jekyll.netlify.com/
 twitter: https://twitter.com/aspirethemes
 facebook: https://www.facebook.com/aspirethemes
