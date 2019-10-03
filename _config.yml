@@ -1,5 +1,5 @@
 ---
-title: Your travel Destination
+title: Daniel Fiott
 timezone: Europe/Amsterdam
 collections:
   posts:
@@ -23,7 +23,7 @@ baseurl:
 url: 
 twitter: 
 facebook: 
-instagram: 
+instagram: https://www.instagram.com/dan.fiott/
 markdown: kramdown
 permalink: pretty
 paginate: 11
